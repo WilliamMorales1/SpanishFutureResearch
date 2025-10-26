@@ -35,7 +35,7 @@ for speaker, group in df.groupby("Speaker_ID"):
     matching_files = list(TEXT_DIR.glob(f"{speaker_code}*"))
 
     if not matching_files:
-        print(f"⚠️ No text file found for {speaker}")
+        print(f"No text file found for {speaker}")
         continue
 
     text_file = matching_files[0]
@@ -75,4 +75,4 @@ df = df.sort_values(["Speaker_ID", "Number"], na_position="last").reset_index(dr
 
 output_file = "FutureTokens102625.xlsx"
 df.to_excel(output_file, index=False)
-print(f"✅ Saved updated file to {output_file}")
+print(f"Saved updated file to {output_file}")
