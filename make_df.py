@@ -16,7 +16,7 @@ pres_endings = ['o', 'as', 'a', 'amos', 'áis', 'an',
                 'imos', 'ís']
 irr_pres_endings = ['oy', 'somos', 'sois', 'son', 'estás', 'está', 'están', 'hay']
 all_pres_endings = pres_endings + irr_pres_endings
-aux_pres_list = ['soy', 'eres', 'es' 'somos', 'sois', 'son', 
+aux_pres_list = ['soy', 'eres', 'es', 'somos', 'sois', 'son', 
                  'estoy', 'estás', 'está', 'estamos', 'estáis', 'están', 
                  'he', 'has', 'ha', 'hay', 'hemos', 'habemos', 'habéis', 'han', 
                  'puedo', 'puedes', 'puede', 'podemos', 'podéis', 'pueden']
